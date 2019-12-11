@@ -1,0 +1,6 @@
+[ngClass]="{'disabled': isActive==false}"
+
+.disabled {
+pointer-events: none;
+cursor: not-allowed;
+}
